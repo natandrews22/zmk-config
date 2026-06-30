@@ -3,22 +3,3 @@
         zmk,keymap = &keymap;
     };
 };
-
-&kscan0 {
-    status = "okay";
-};
-
-&matrix_transform {
-    status = "okay";
-};
-
-&keymap {
-    compatible = "zmk,keymap";
-
-    default_layer {
-        bindings = <
-            &kp A &kp B &kp C
-            &kp D &kp E &kp F
-        >;
-    };
-};
